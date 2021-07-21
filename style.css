@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10;
+    font-family: Georgia
+    
+}
+
+h1 {
+    padding-top: 10px;
+    padding-left: 25px;
+    margin: 10px;
+}
+
+.root {
+    width: 1200px;
+    height: 900px;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customer-card {
+    width: 275px;
+    height: 275px;
+    text-align: center;
+}
+
+.customer-card > img {
+    border-radius: 10px 100px / 100px
+}
+
+.customer-card > p {
+    color: gray;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.customer-card > h1 {
+    font-size: 24px;
+    text-transform: capitalize; 
+}
+
+.customer-card > h2 {
+   font-size: 15px;
+   font-weight: lighter;
+}
